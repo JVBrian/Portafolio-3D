@@ -132,7 +132,7 @@ const Contact = () => {
             onFocus={handleFocus}
             onBlur={handleBlur}
           >
-            {loading ? "Sending..." : "Submit"}
+            {loading ? "Enviando..." : "Enviar mensaje"}
           </button>
         </form>
       </div>
